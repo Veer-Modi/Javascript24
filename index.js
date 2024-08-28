@@ -270,10 +270,20 @@
 /* const fruits = ["apple", "banana", "cherry", "date"]
 const =*/
 
-const uniquenumber=new Set()
-uniquenumber.add(1)
-uniquenumber.add({key:"value"})
-uniquenumber.add({key:"diff_value"})
-console.log("Set:Unique Number-", Array.from(uniquenumber).join(" , "))
+// const uniquenumber=new Set()
+// uniquenumber.add(1)
+// uniquenumber.add({key:"value"})
+// uniquenumber.add({key:"diff_value"})
+// console.log("Set:Unique Number-", Array.from(uniquenumber).join(" , "))
 
 
+
+
+var arr=[1,3,2,4,5,8,7]
+count=0
+for(i=0;i<10;i++){
+    count=arr[i]+count
+}
+if(count==undefined){
+    console.log(indexOf(count))
+}
